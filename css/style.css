@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 10px;
+   
+}
+body{
+    background-color: rgb(74, 72, 72);    
+    font-family: 'Kanit', sans-serif;
+}
+button
+{
+    border-width: 0.1px;
+    border-color: #6C6D95;
+    border-radius: 3px;
+    background-color: #DAD9DF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+}
+#header
+{
+    margin: 0px auto;
+    width: 600px;
+    color: #D4E79E;
+}
+.calculator
+{
+    padding:0px;
+    margin:10pc auto;
+    height: auto;
+    width : 450px;  
+   
+    display:grid; 
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.2fr;   
+    grid-template-areas: 
+    "screen_out screen_out screen_out screen_out"
+    "addi subs mul div"
+    "b_7 b_8 b_9 equal"
+    "b_4 b_5 b_6 equal"
+    "b_1 b_2 b_3 equal"
+    "b_0 b_dot C equal";
+  
+}
+input {
+    text-align: right;
+  }
+#screen
+{ 
+    grid-area: screen_out;
+}
+#button_add
+{
+    grid-area: addi;
+    background-color: #D48A21;
+}
+#button_subs
+{
+    background-color: #98B54E;
+    grid-area: subs;
+}
+#button_mul
+{
+    background-color: #D085F0;
+    grid-area: mul;
+}
+#button_div
+{
+    background-color: #EABB31;
+    grid-area: div;
+}
+#button_equal
+{
+    background-color: #3D7074;
+    grid-area: equal;
+}
+#button_0
+{
+    grid-area: b_0;
+}
+#button_1
+{
+    grid-area: b_1;
+}
+#button_2
+{
+    grid-area: b_2;
+}
+#button_3
+{
+    grid-area: b_3;
+}
+#button_4
+{
+    grid-area: b_4;
+}
+#button_5
+{
+    grid-area: b_5;
+}
+#button_6
+{
+    grid-area: b_6;
+}
+#button_7
+{
+    grid-area: b_7;
+}
+#button_8
+{
+    grid-area: b_8;
+}
+#button_9
+{
+    grid-area: b_9;
+}
+#button_C
+{
+    grid-area: C;
+}
+#button_dot
+{
+    grid-area: b_dot;
+   font-weight:bolder;
+   
+}

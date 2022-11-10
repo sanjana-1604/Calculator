@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,900&family=Quicksand:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "header"><h1>Calculator using HTML, CSS, and JS</h1></div>
+    
+    <section class="calculator">
+        <input type="text" readonly id = "screen" >
+        <button id = "button_add" onclick=" numberAdded(this.id)">+</button>
+        <button id = "button_subs" onclick=" numberAdded(this.id)">-</button>
+        <button id = "button_mul" onclick=" numberAdded(this.id)">*</button>
+        <button id = "button_div" onclick=" numberAdded(this.id)">/</button>
+        <button id = "button_equal" onclick=" btnEqualPress()">=</button>
+        <button id = "button_0" onclick="numberAdded(this.id)">0</button>
+        <button id = "button_1" onclick="numberAdded(this.id)">1</button>
+        <button id = "button_2" onclick="numberAdded(this.id)">2</button>
+        <button id = "button_3" onclick="numberAdded(this.id)">3</button>
+        <button id = "button_4" onclick="numberAdded(this.id)">4</button>
+        <button id = "button_5" onclick="numberAdded(this.id)">5</button>
+        <button id = "button_6" onclick="numberAdded(this.id)">6</button>
+        <button id = "button_7" onclick="numberAdded(this.id)">7</button>
+        <button id = "button_8" onclick="numberAdded(this.id)">8</button>
+        <button id = "button_9" onclick="numberAdded(this.id)">9</button>
+        <button id = "button_dot" onclick="numberAdded(this.id)">.</button>
+        <button id = "button_C" onclick="clearScreen()">C</button>
+
+    </section>
+  
+    <script src="./script/script.js"></script>
+</body>
+</html>
