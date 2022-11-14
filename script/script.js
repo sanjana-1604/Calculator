@@ -14,7 +14,7 @@ function btnEqualPress() {
     else if (equation.split("-").length > 1) {
         numbers = equation.split("-");
         total = Number(numbers[0]);
-        for (var i = 1; i <= numbers.length; i++) {
+        for (var i = 1; i < numbers.length; i++) {
             total -= Number(numbers[i]);
 
         }
